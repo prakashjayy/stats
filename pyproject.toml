@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "stats"
+version = "0.1.0"
+description = "understanding stats, descriptive, inference, sampling etc"
+authors = ["Prakash Jay"]
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.9"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
