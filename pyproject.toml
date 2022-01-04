@@ -2,10 +2,13 @@
 name = "stats"
 version = "0.1.0"
 description = "understanding stats, descriptive, inference, sampling etc"
-authors = ["Prakash Jay"]
+authors = ["Prakash Jay <prakashjyy@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8,<3.9"
+numpy = "^1.22.0"
+matplotlib = "^3.5.1"
+tqdm = "^4.62.3"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"
